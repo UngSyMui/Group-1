@@ -1,0 +1,173 @@
+
+.footer{
+    height: 555px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.footer-rows1{
+    background-color: #ffffff;
+    border-top: 1px solid #e5e5e5;
+    height: 485px;
+    width: 100%;
+    display: flex;
+
+
+}
+.footer-columns1{
+    padding-top: 60px;
+    flex: 2;
+
+    float: left;
+    padding-right: 60px;
+
+}
+.columns1-item li{
+    margin-top: 25px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+#imgfooter1{
+    margin-left: 30px;
+}
+.columns1-item li a{
+    margin-right: 38px;
+    font-size: 22px;
+    color: #dc3545;
+}
+
+.last-columns1 b{
+    background-color: #111111;
+    font-size: 18px;
+    color: white;
+    padding: 12px 30px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.footer-columns2{
+    padding-top: 60px;
+    flex: 1;
+
+    float: left;
+}
+.footer-columns2 ul li{
+    margin-top: 25px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+.footer-columns2 ul li b{
+    font-size: 25px;
+}
+.footer-columns3{
+    padding-top: 60px;
+    flex: 2;
+
+    float: left;
+}
+.footer-columns3 ul li{
+    margin-top: 25px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+.footer-columns3 ul li b{
+    font-size: 25px;
+}
+
+
+.footer-columns4{
+    padding-top: 60px;
+    flex: 1;
+
+    float: left;
+}
+.footer-columns4 ul li{
+    margin-top: 25px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+.footer-columns4 ul li b{
+    font-size: 25px;
+}
+
+.footer-columns5{
+    padding-top: 65px;
+    flex: 2;
+
+    float: left;
+}
+.footer-columns5 ul li{
+    margin-top: 15px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.footer-columns5 ul li b{
+
+    font-size: 25px;
+}
+.footer-columns5 form{
+    width: 280px;
+    height: 150px;
+    border: 4px solid #e5e5e5;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form h2{
+    flex:3;
+}
+.email-form{
+    height: 50px;
+    width: 270px;
+    flex:1;
+    display: flex;
+}
+.email-form input{
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+.email-form label{
+
+    border: 1px solid #111111;
+    border-top-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    box-sizing: border-box;
+    padding:10px 20px;
+}
+.email-form label:hover{
+    background-color: #111111;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.footer-rows2{
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+   text-align: center;
+    line-height: 70px;
+    font-size: 17px;
+    font-weight: 100;
+    border-top: 1px solid #e5e5e5;
+}
