@@ -1,0 +1,286 @@
+.main{
+    background-color: #ffffff;
+}
+
+.nav{
+    height: 60px;
+    width: 1300px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+}
+.nav div{
+    float: left;
+    line-height: 60px;
+    margin-right: 20px;
+    font-weight: 100;
+}
+
+
+/*Khu vực nội dung sản phẩm*/
+.rows1content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.rows1content div p{
+    font-weight: 500;
+    font-size: 22px;
+}
+.rows1form {
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+.rows2content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-content{
+    width: 220px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.name-product{
+    margin-top: 20px;
+}
+
+.price-info{
+    margin-top: 20px;
+}
+.box-price{
+    float:left;
+}
+
+.price-sale {
+    float: left;
+    font-weight: 500;
+}
+.price-product{
+    float: left;
+    text-decoration: line-through;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.giohang{
+    float: right;
+    border: 1px solid #111111;
+    font-size: 22px;
+    padding: 4px 4px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #111111;
+}
+.icon-info3 a i{
+    color: white;
+}
+.icon-info3 a i:hover{
+    color: #111111;
+}
+.icon-info3 a i::before{
+    padding: 4px 6px;
+}
+.giohang:hover{
+    background-color: #ffffff;
+}
+.productb{
+    display: none;
+}
+
+
+/*Khu vực Sidebar*/
+
+.sidebar{
+    margin-top: 50px;
+    background-color: #ffffff;
+
+}
+.rows1sidebar{
+    width: 280px;
+    float: left;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom:28px;
+
+}
+.size{
+    float: left;
+}
+.mark{
+    float: right;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.mark:hover{
+    cursor: pointer;
+}
+.size-product{
+    float: left;
+}
+.sizeitem{
+    float: left;
+    padding: 3px 6px;
+    min-width: 30px;
+    border: 1px solid #e5e5e5;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    display: flex;
+
+}
+.sizeitem input{
+    margin: auto;
+
+}
+.size a{
+    font-size: 16px;
+}
+
+.rows2sidebar{
+    width: 280px;
+    float: left;
+    margin-top: 30px;
+
+}
+
+.color {
+    float: left;
+    font-size: 16px;
+
+}
+.box-color{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.color-item{
+    margin-top: 30px;
+    width: 30px;
+    height:30px;
+    background-color: #f6f68a;
+    border-radius: 20px;
+    display: flex;
+
+
+}
+.color-item input{
+    margin: auto;
+    padding: 10px;
+    position: relative;
+
+
+}
+.color-item label{
+    margin: 30px auto;
+    color: #111111;
+    display: none;
+    position: absolute;
+}
+.color-item:hover .fonthiden{
+    display: block;
+}
+.color-xanh{
+    background-color: #cafd67;
+
+}
+.color-do{
+    background-color: #ff7373;
+
+}
+.color-tim{
+    background-color: #d29eff;
+
+}
+.color-dacam{
+    background-color: #ff9972;
+
+}
+.color-hong{
+    background-color: #ffb9c5;
+
+}
+.color-den{
+    background-color: #424141;
+
+}
+.color-nau{
+    background-color: #fa834f;
+
+}
+
+.rows3sidebar{
+    margin-top: 50px;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 30px;
+    font-size: 16px;
+
+}
+.input-price{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.input-price label{
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.rows4sidebar{
+    margin-top: 50px;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 30px;
+    font-size: 16px;
+
+}
+.input-sale{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.input-sale label{
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+
+.rows5sidebar{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.boloc button{
+    font-size: 16px;
+    padding: 20px ;
+    margin-right: 20px;
+    border: 1px solid #111111;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 100;
+}
+.loc button{
+    font-size: 16px;
+    padding: 20px 30px;
+    margin-left: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #111111;
+    color: white;
+    border: 1px solid #111111;
+    font-weight: 100;
+}
+
+.boloc button:hover{
+    background-color: #111111;
+    color: white;
+}
+.loc button:hover{
+    background-color: #ffffff;
+    color: #111111;
+}

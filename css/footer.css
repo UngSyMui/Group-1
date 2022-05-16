@@ -16,7 +16,6 @@
 .footer-columns1{
     padding-top: 60px;
     flex: 2;
-
     float: left;
     padding-right: 60px;
 
@@ -156,16 +155,11 @@ form h2{
 
 
 
-
-
-
-
-
 .footer-rows2{
     background-color: #ffffff;
     height: 70px;
     width: 100%;
-   text-align: center;
+    text-align: center;
     line-height: 70px;
     font-size: 17px;
     font-weight: 100;

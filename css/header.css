@@ -1,8 +1,10 @@
 .header{
     background-color: #ffffff;
-    border-bottom: 1px solid #f6f6f6;
+    border-bottom: 1px solid #e5e5e5;
     position: fixed;
     height: 80px;
+    width: 1300px ;
+    min-width: 100%;
 
 }
 .logo ul{
@@ -105,7 +107,7 @@
 .toplinks{
     float: right;
     width: 30%;
-    margin-right: 50px;
+
 }
 .toplinks ul{
     float: right;
@@ -113,7 +115,7 @@
 .toplinks ul li{
     float: left;
     list-style: none;
-    margin-right: 10px;
+    margin-left: 10px;
     font-weight: 200;
     line-height: 80px;
     font-size: 13px;
@@ -207,6 +209,10 @@
 
 
 }
+.icon1 a i{
+    font-size: 20px;
+
+}
 .icon1-box div a{
     display: flex;
     flex-direction: row;
@@ -243,14 +249,22 @@
     display: block;
     animation: fadeIn ease-in-out 0.3s ;
 }
-.icon3{
+.icon2 a i{
+    font-size: 20px;
+    margin-top: -20px;
 
 }
+#bag{
+    font-size: 20px;
+    margin-top: -4px;
+
+}
+
 .rows-bag{
     width:400px;
     height: 100vh;
     margin-top: -90px;
-    margin-right: -70px;
+    margin-right: -10px;
     background-color: #ffffff;
     border:1px solid #e5e5e5;
     float: right;
@@ -268,8 +282,6 @@
     float: left;
     padding-left: 20px;
 }
-
-
 
 
 .row2{
@@ -319,7 +331,7 @@
 }
 @keyframes faderight {
     from{
-        transform: translateX(150px);
+        transform: translateX(130px);
         opacity: 0;
     }
     to{

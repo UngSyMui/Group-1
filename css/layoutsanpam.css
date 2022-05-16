@@ -34,22 +34,18 @@ img{
 .columns-right .content{
     float: left;
     width: 66.67%;
-
 }
 .columns-right .sidebar{
     float: right;
     width: 33.33%;
-
 }
 .columns-left .content{
     float: right;
-    width: 66.67%;
-
+    width: 75%;
 }
 .columns-left .sidebar{
     float: left;
-    width: 33.33%;
-
+    width: 22%;
 }
 .one-column .content{
     float: left;

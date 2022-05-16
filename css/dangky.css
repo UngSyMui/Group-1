@@ -1,0 +1,137 @@
+.container{
+    background-color: #ffffff;
+
+}
+.main{
+    background-color: #ffffff;
+}
+#dangky{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+.container form{
+    width: 100%;
+    background-color: #ffffff;
+    font-size: 16px;
+    float: left;
+    display: flex;
+    margin-bottom: 30px;
+
+
+}
+.columnsa{
+    width: 640px;
+}
+.columnsb{
+    width: 640px;
+}
+.color{
+    color: #e82323;
+}
+label p{
+    float: left;
+    margin-top: 15px;
+}
+.columnsa-rows{
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+.rows1a{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.rows1b{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.form-input input{
+    width: 280px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5 ;
+    outline-color: #a9fad9;
+    margin-top: 15px;
+}
+
+.select-input{
+    width: 280px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5 ;
+    outline-color: #a9fad9;
+    margin-top: 15px;
+}
+.select-input:focus{
+    outline-color: #a9fad9;
+}
+
+.columnsa-rows2{
+    width: 600px;
+}
+.select-rows2{
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5 ;
+    outline-color: #a9fad9;
+
+}
+
+
+.input-rows1b input{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    outline-color: #a9fad9;
+
+}
+.form-checkbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    line-height: 2;
+    font-size: 16px;
+}
+.form-submid{
+    margin-top: 15px;
+
+}
+.form-submid button{
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #111111;
+    border: 1px solid #111111;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+.form-submid button:hover{
+    background-color: white;
+    color: #111111;
+    cursor: pointer;
+
+}
+
