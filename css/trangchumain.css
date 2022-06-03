@@ -4,6 +4,8 @@
 }
 .navmain{
     float: left;
+    margin-bottom: 30px;
+
 }
 .navmain ul li{
     float: left;
@@ -26,20 +28,21 @@
     text-align: center;
 }
 .navbox3{
-     width: 433.33px;
+    width: 433.33px;
     background-color: #AC2F33;
     text-align: center;
  }
-.anhmain1 img{
-    padding-top: 30px;
+#slider{
+
     border-bottom-right-radius: 90px;
     border-top-left-radius: 90px;
 }
+
 .chumain1{
     font-size: 28px;
     font-weight: 500;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: #ffffff;
 }
 .chumain2{
@@ -49,13 +52,13 @@
     text-align: center;
 
 }
-.chumain2 p{
-    margin-top: 30px;
+.chumain2 a{
+    margin-top: 20px;
     margin-left: 40px;
     float: left;
     margin-bottom: 30px;
 }
-.chumain2 p:first-child{
+.chumain2 a:first-child{
     margin-left: 500px;
 }
 .rows1main{
@@ -68,7 +71,13 @@
     width: 230px;
     float: left;
     margin-right:37px;
-
+}
+.info1{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.info1:hover{
+    transform: scale(1.1);
 }
 .sale{
     text-decoration: line-through;
@@ -203,6 +212,7 @@
     font-size: 45px;
     text-align: center;
     padding-top: 70px;
+    margin-bottom: 30px;
 }
 .imgrows5{
     margin-top: 30px;

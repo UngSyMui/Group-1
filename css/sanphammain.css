@@ -43,6 +43,13 @@
     font-size: 16px;
     font-weight: 300;
 }
+.producta {
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.producta:hover {
+    transform: scale(1.1);
+}
 
 .name-product{
     margin-top: 20px;
@@ -90,7 +97,29 @@
     display: none;
 }
 
+.rows3content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.rows3content a{
+    margin-right: 8px;
+    padding: 6px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid #e5e5e5;
+    background-color: #FFFFFF;
 
+}
+
+.rows3content a:hover{
+    background-color: #111111;
+    color: #FFFFFF;
+}
+.rows3content a:before{
+    padding: 10px 20px;
+}
 /*Khu vực Sidebar*/
 
 .sidebar{
@@ -105,15 +134,21 @@
     padding-bottom:28px;
 
 }
+.firstside{
+    display: flex;
+    justify-content: space-between;
+}
 .size{
     float: left;
 }
+
 .mark{
     float: right;
     font-size: 20px;
     font-weight: 300;
 
 }
+
 .mark:hover{
     cursor: pointer;
 }
@@ -152,7 +187,9 @@
     float: left;
     font-size: 16px;
 
+
 }
+
 .box-color{
     width: 100%;
     display: flex;
@@ -284,3 +321,4 @@
     background-color: #ffffff;
     color: #111111;
 }
+

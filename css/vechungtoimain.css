@@ -1,0 +1,272 @@
+
+.row1main{
+    float:left;
+    background-color: #ffffff;
+    width: 1300px;
+
+}
+.row1main p{
+    float: left;
+    margin-right: 12px;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row2main{
+    font-size:40px ;
+    color: #995437;
+    font-weight: bold;
+    margin-top: 117px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #995437;
+    width: 591px;
+    text-align: center;
+    margin-left: 340px;
+    padding-bottom: 30px;
+
+}
+#a1{
+    width: 100%;
+}
+.row3main{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 90px;
+    font-weight: bold;
+}
+.row4main{
+    float: left;
+}
+.row4main div{
+    float: left;
+    text-align: center;
+    width: 433px;
+    margin-bottom: 60px;
+
+}
+
+.row4main div p a{
+    font-weight: inherit;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.row4main div p{
+    margin-top: 20px;
+}
+.row5main{
+    width: 1378px;
+    height: 532px;
+}
+.row5main div{
+    float: left;
+    text-align: center;
+    max-width: 400px;
+    height: 120px;
+    background-color: #173c46;
+    padding: 60px;
+    color: #995437;
+
+}
+.so{
+    font-size: 60px;
+}
+.chu{
+    font-size: 26px;
+    color: white;
+    line-height: 1.3;
+}
+.khoi{
+    background-color: #c8c6c6;
+    width: 258.4px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+.row6main img{
+    width: 100%;
+    margin-top: -22px;
+}
+.row7main{
+
+    width: 1300px;
+    height: 900px;
+    background-color: #173c46;
+}
+.row7mainhead{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+.row7main2{
+    width: 100%;
+    height: 120px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+
+
+
+}
+.row7main2a{
+    display: flex;
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding-left: 100px;
+
+
+}
+.row7main2a1{
+    background-color: #995437;
+    width: 381px;
+    text-align: center;
+    padding: 37px ;
+
+}
+.row7main2a2{
+    width: 381px;
+    height: auto;
+    border-bottom: 1px solid white;
+    margin:auto;
+    font-size: 15px;
+    text-align: justify;
+
+}
+.row7main2b{
+    display: flex;
+    text-align: left;
+    padding-left: 100px;
+}
+.row7main2b1{
+    background-color: #995437;
+    width: 381px;
+    height: 50px;
+    text-align: center;
+    padding: 37px ;
+    margin-right: 100px;
+}
+.row7main2b2{
+    width: 381px;
+    height: auto;
+    border-bottom: white 1px solid;
+    margin:auto;
+    font-size: 15px;
+}
+
+.row8main {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.row8maina{
+    width: 50%;
+    height: 50%;
+    font-size: 18px;
+    padding: 30px;
+    border: #6C6D70 1px solid;
+    margin-left: 30px;
+    color: #6C6D70;
+    text-align: left;
+}
+
+#a2{
+    font-size: 30px;
+    text-align: center;
+}
+.row8mainb{
+    text-align: left;
+    font-size: 18px;
+    padding: 30px;
+    border: #6C6D70 1px solid;
+    width: 60%;
+    height: 50%;
+    color: #6C6D70;
+}
+#a3{
+    font-size: 30px;
+    text-align: center;
+}
+.row8mainb1{
+    margin-left:30px ;
+}
+.row8mainc{
+    margin-right: 30px;
+
+}
+.row8mainc1{
+    font-size: 18px;
+    text-align: left;
+    border: #6C6D70 1px solid;
+    width: 50%;
+    height: 400px;
+    padding: 30px;
+    color: #6C6D70;
+}
+#a4{
+    font-size: 30px;
+    text-align: center;
+}
+.row8maind{
+    font-size: 18px;
+    text-align: left;
+    border: #6C6D70 1px solid;
+    padding: 30px;
+    width: 60%;
+    height: 50%;
+    color: #6C6D70;
+    margin-right: 30px;
+}
+#a5{
+    font-size: 30px;
+    text-align: center;
+}
+.row8maind1{
+
+}
+.row8maine{
+    margin-right: 30px;
+
+}
+.row8maine1{
+    font-size: 18px;
+    text-align: left;
+    border: #6C6D70 1px solid;
+    padding: 30px;
+    width: 60%;
+    height: 50%;
+    color: #6C6D70;
+}
+#a6{
+    font-size: 30px;
+    text-align: center;
+}
+.row8mainf{
+    font-size: 18px;
+    text-align: left;
+    border: #6C6D70 1px solid;
+    padding: 30px;
+    width: 60%;
+    height: 50%;
+    color: #6C6D70;
+}
+.row8mainf1{
+    margin-left: 30px;
+}
+#a7{
+    font-size: 30px;
+    text-align: center;
+}
+.row9main{
+    font-size:50px ;
+    color: #995437;
+    font-weight: bold;
+    margin-top: 117px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}

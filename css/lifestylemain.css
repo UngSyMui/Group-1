@@ -1,0 +1,195 @@
+.main{
+    /*width: 1350px;*/
+    /*padding: 0 15px 0 15px;*/
+}
+.opening{
+    color: #6c6d70;
+    display: flex;
+    background-color: #fafafa;
+    padding: 20px 0;
+    float: left;
+    margin-right: 25px;
+    border-bottom: 1px solid #939598;
+    width: 100%;
+}
+.opening a{
+    font-size: 15px;
+    margin-right: 25px;
+    font-weight: 200;
+}
+#tt{
+    margin-left: 18px;
+}
+
+.body-part{
+    padding: 80px 0 80px 0;
+    width: 100%;
+}
+.topic{
+    padding: 15px 0 15px;
+    height: 170px;
+    background-color: #fafafa;
+    width: 100%;
+}
+.topic1{
+    margin-top: 6px;
+    font-size: 80px;
+    line-height: 98px;
+    font-weight: 700;
+    text-align: center;
+    text-transform:uppercase ;
+    background-color: #fafafa;
+}
+.topic2{
+    height: 50px;
+    margin-top: 43px;
+    padding-left: 310px;
+    text-transform: uppercase;
+}
+.topic2 li{
+    float: left;
+    list-style: none;
+    padding-left: 60px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.story1{
+    margin-top: 21px;
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    background-color: #fafafa;
+    border-radius: 80px 0;
+}
+.story1 .intension{
+    float: left;
+    width: 435px;
+    height: 600px;
+    padding: 35px 0 0 35px;
+    line-height: 30px;
+    font-weight: 200;
+}
+.story1 .intension .title h3{
+    text-align: center;
+    font-weight: 200;
+    font-size: 17px;
+}
+.story1 .intension .title h1{
+    font-size: 31px;
+    line-height: 42px;
+    margin-top: 10px;
+}
+.story1 .intension .describe{
+    color: #6c6d70;
+    line-height: 25px;
+    margin-top: 37px;
+}
+.story1 .intension .describe .time{
+    color: #939598;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.story1 .intension .instruction{
+    margin-top: 170px;
+    font-size: 17px;
+}
+.story1 img{
+    float: right;
+    border-radius: 80px 0;
+    height: 100%;
+    width: 730px;
+}
+
+.story2{
+    margin-top: 65px;
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    background-color: #fafafa;
+    border-radius: 80px 0;
+}
+.story2 img{
+    float: left;
+    border-radius: 80px 0;
+    height: 600px;
+    width: 645px;
+}
+.story2 .intension{
+    float: right;
+    width: 577px;
+    height: 600px;
+    padding: 35px 60px 0 18px;
+    line-height: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+.story2 .intension h3{
+    text-align: center;
+    font-weight: 200;
+    font-size: 17px;
+}
+.story2 .intension .title h1{
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 16px;
+}
+.story2 .intension .describe{
+    color: #6c6d70;
+    line-height: 30px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.story2 .intension .describe .time{
+    color: #939598;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.story2 .intension .instruction{
+    margin-top: 170px;
+    font-size: 17px;
+}
+
+.story3{
+    margin: 64px 0 27px 0;
+    width: 100%;
+    height: 858px;
+
+}
+.story3 .big-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+.story3 .intension{
+    float: left;
+    width: 413px;
+    height: 820px;
+    margin-right: 30px;
+    font-weight: 200;
+}
+.story3 .intension img{
+    height: 610px;
+}
+.story3 .intension.last{
+    margin-right: 0;
+}
+.story3 .intension .describe{
+    color: #6c6d70;
+    margin-top: 32px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.story3 .intension .title h3{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.story3 .intension .title h4{
+    color: #939598;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 25px;
+}

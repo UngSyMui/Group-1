@@ -5,6 +5,7 @@
     height: 80px;
     width: 1300px ;
     min-width: 100%;
+    z-index: 100;
 
 }
 .logo ul{
@@ -33,6 +34,7 @@
     border-radius: 2px;
     float: left;
     display: none;
+
 }
 .product a{
     float: left;
@@ -56,7 +58,7 @@
 }
 .logo-product:hover .product{
     display: block;
-    animation: fadeIn ease-in-out 0.35s;
+    animation: fadeIn ease-in-out 0.5s;
 
 }
 @keyframes fadeIn {
@@ -82,7 +84,7 @@
     width: 240px;
     position: absolute;
     top: 100%;
-    margin-top: -20px;
+    margin-top: -24px;
     border-radius: 2px;
     float: left;
     display: none;
@@ -107,6 +109,7 @@
 .toplinks{
     float: right;
     width: 30%;
+    margin-top: -5px;
 
 }
 .toplinks ul{

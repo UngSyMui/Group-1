@@ -1,0 +1,95 @@
+body{
+    background-color: #FFFFFF;
+}
+
+.content{
+    background-color: #FFFFFF;
+}
+.container .sidebar{
+    width: 32%;
+    background-color: #FFFFFF;
+}
+.content form{
+    width: 100%;
+    border: 1px solid #111111;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+.timviec div p{
+    font-size: 18px;
+    padding: 10px;
+}
+.input-timviec{
+    margin-left: 10px;
+}
+.input-timviec input{
+    width: 65%;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #111111;
+
+
+}
+.input-timviec button{
+    width: 15%;
+    height: 34px;
+    margin-left: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #111111;
+}
+.input-timviec button:hover{
+    background-color: #111111;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.selectimviec{
+    width: 65.5%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.selectimviec select{
+    width: 40%;
+    height: 34px;
+    border: 1px solid #111111;
+    padding-left: 10px;
+}
+
+.table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #111111;
+}
+
+table{
+    border:1px solid black;
+    width: 100%;
+}
+th{
+    border:1px solid black;
+    padding: 10px 0px 10px 32px;
+}
+td{
+    border:1px solid black;
+    padding: 10px 32px;
+}
+
+.sidebar1{
+    border: 1px solid #111111;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.sidebar2{
+    border: 1px solid #111111;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 30px;
+}
