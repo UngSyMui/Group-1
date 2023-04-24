@@ -330,7 +330,6 @@
 #bag:hover .rows-bag {
     display: flex;
     animation: faderight ease-in-out 0.3s;
-
 }
 @keyframes faderight {
     from{
